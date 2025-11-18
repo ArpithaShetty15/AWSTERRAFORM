@@ -69,7 +69,7 @@ resource "aws_instance" "example" {
   ami           = "ami-03695d52f0d883f65"
   subnet_id     = aws_subnet.S1.id
   instance_type = "t3.micro"
-  key_name      = "linuxkp"
+  key_name      = "Dockertest"
   #vpc_security_group_ids = ["sg-07862ec3d9b439e15"]
   tags = {
     Name = "TerraServer"
